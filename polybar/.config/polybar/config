@@ -54,7 +54,7 @@ font-4 = Font Awesome 5 Free Solid:pixelsize=8;1
 
 modules-left = bspwm
 modules-center = xwindow
-modules-right = filesystem xbacklight pulseaudio xkeyboard memory cpu wlan eth battery temperature date powermenu
+modules-right = xbacklight pulseaudio battery date
 
 tray-position = right
 tray-padding = 2
