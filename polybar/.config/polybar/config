@@ -54,7 +54,7 @@ font-4 = Font Awesome 5 Free Solid:pixelsize=8;1
 
 modules-left = bspwm
 modules-center = xwindow
-modules-right = xbacklight pulseaudio battery date switchbars
+modules-right = wlan-mini xbacklight pulseaudio battery date switchbars
 
 tray-position = right
 tray-padding = 2
@@ -163,6 +163,10 @@ format-connected = <label-connected>
 label-connected =  %essid%: %signal%%
 
 format-disconnected =
+
+[module/wlan-mini]
+inherit = module/wlan
+label-connected =  %signal%%
 
 [module/eth]
 type = internal/network
