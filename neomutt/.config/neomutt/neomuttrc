@@ -1,12 +1,18 @@
-# imap server and folders
+# load imap server and folders config from file with:
+# set imap_user = <user>
+# set folder = imaps://<imap_server>/
+# set spoolfile = +INBOX
+# mailboxes = +INBOX
+# ...
 source neomuttrc.imap
+
+# other imap settings
+set imap_keepalive = 300
+set mail_check = 120
 
 # mail caching
 set header_cache = ~/.cache/neomutt
 set message_cachedir = ~/.cache/neomutt
-
-set imap_keepalive = 300
-set mail_check = 120
 
 # index
 set index_format = "%Z %{%F %T} %-60.60s %-15.15L (%?l?%4l&%4c?)"
@@ -22,5 +28,5 @@ bind index,pager <C-Down> sidebar-next
 bind index,pager <C-Enter> sidebar-open
 bind index,pager \Co sidebar-open
 
-# load colors from example
+# load colors config from file
 source neomuttrc.colors
