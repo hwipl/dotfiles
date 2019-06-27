@@ -1,0 +1,26 @@
+# imap server and folders
+source neomuttrc.imap
+
+# mail caching
+set header_cache = ~/.cache/neomutt
+set message_cachedir = ~/.cache/neomutt
+
+set imap_keepalive = 300
+set mail_check = 120
+
+# index
+set index_format = "%Z %{%F %T} %-60.60s %-15.15L (%?l?%4l&%4c?)"
+
+# pager
+set pager_index_lines = 10
+
+# sidebar
+set sidebar_visible = yes
+set sidebar_width = 20
+bind index,pager <C-Up> sidebar-prev
+bind index,pager <C-Down> sidebar-next
+bind index,pager <C-Enter> sidebar-open
+bind index,pager \Co sidebar-open
+
+# load colors from example
+source neomuttrc.colors
