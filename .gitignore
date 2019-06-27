@@ -1,0 +1,2 @@
+# ignore neomutt's imap config
+neomutt/.config/neomutt/neomuttrc.imap
