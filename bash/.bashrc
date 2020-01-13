@@ -25,6 +25,7 @@ export EDITOR=vim
 # paths
 export PATH=$PATH:~/bin
 export PATH=$PATH:~/.local/bin
+export PATH=$PATH:~/go/bin
 
 # powerline
 powerline-daemon -q
