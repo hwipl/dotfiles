@@ -20,7 +20,7 @@ export HISTSIZE=10000
 export HISTFILESIZE=10000
 
 # editor
-export EDITOR=nvim
+export EDITOR=vim
 
 # paths
 export PATH=$PATH:~/bin
