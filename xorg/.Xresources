@@ -1,0 +1,44 @@
+!!!!!!!!!!!!!!!!!!!
+!!! HiDPI stuff !!!
+!!!!!!!!!!!!!!!!!!!
+!
+!Xft.dpi: 336
+Xft.dpi: 192
+Xft.autohint: 0
+Xft.lcdfilter: lcddefault
+Xft.hintstyle: hintfull
+Xft.hinting: 1
+Xft.antialias: 1
+Xft.rgba: rgb
+
+!!!!!!!!!!!!!!
+!!! Colors !!!
+!!!!!!!!!!!!!!
+
+#include ".Xresources.d/colors"
+
+!!!!!!!!!!!!!!!!
+!!! Terminal !!!
+!!!!!!!!!!!!!!!!
+
+! 256 colors
+XTerm.termName: xterm-256color
+
+! colors
+XTerm.vt100.foreground: grey
+XTerm.vt100.background: #1c1c1c
+
+! font
+!XTerm.vt100.faceName: ttf-dejavu:size=14
+XTerm.vt100.faceName: DejaVu Sans Mono for Powerline:size=14
+!XTerm.vt100.faceName: ttf-dejavu:size=10
+
+! alt key behaviour like in other terminal emulators
+XTerm.vt100.metaSendsEscape: true
+
+! larger scroll buffer
+XTerm.vt100.saveLines: 4096
+
+! backspace key
+XTerm.vt100.backarrowKey: false
+XTerm.ttyModes: erase ^?
